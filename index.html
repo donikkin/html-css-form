@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Консультація</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container grid middle">
+      <div>
+        <label for="name">Ваше ім'я</label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="mail">Ваша пошта</label>
+        <input type="email" id="mail" />
+      </div>
+      <div>
+        Ваш тип шкіри<br />
+        <input type="radio" name="r" id="r1" /><label for="r1">Суха</label
+        ><br />
+        <input type="radio" name="r" id="r2" /><label for="r2">Жирна</label
+        ><br />
+        <input type="radio" name="r" id="r3" /><label for="r3">Нормальна</label
+        ><br />
+        <input type="radio" name="r" id="r4" /><label for="r4"
+          >Потрібна допомога у визначені</label
+        ><br />
+      </div>
+      <div>
+        Вікова категорія<br />
+        <input type="radio" name="r" id="r5" /><label for="r5">14-25</label
+        ><br />
+        <input type="radio" name="r" id="r6" /><label for="r6">26-35</label
+        ><br />
+        <input type="radio" name="r" id="r7" /><label for="r7">36-50</label
+        ><br />
+        <input type="radio" name="r" id="r8" /><label for="r8">50+</label><br />
+      </div>
+      <div>
+        <label for="prob">Основна проблема</label><br />
+        <select id="prob">
+          <option>Акне</option>
+          <option>Комедони</option>
+          <option>Зморшки</option>
+          <option>Сухість шкіри</option>
+          <option>Пігментація</option>
+          <option>Інше</option>
+        </select>
+      </div>
+      <div>
+        <label for="text1"
+          >Додаткова інформація(напр. вагітність, онкозахворювання і т.д)</label
+        ><br />
+        <textarea id="text1" cols="30" rows="10"></textarea>
+      </div>
+      <div class="button">
+        <input type="button" value="Submit" />
+      </div>
+    </div>
+  </body>
+</html>
